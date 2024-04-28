@@ -1,0 +1,71 @@
+version: '3.8'
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  nginxproxymanager-data:
+  nginxproxymanager-ssl:
+
+services: 
+  db:
+    container_name: mysql
+    image: mysql:8.0.20
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_INITDB_SKIP_TZINFO: 1
+      MYSQL_DATABASE: QuangCaoDieuHoa
+    privileged: false
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d
+      - ./data:/var/lib/mysql:rw
+    networks:
+      - app-network
+
+  # backend:
+  #   hostname: backend
+  #   container_name: backend
+  #   image: ndvinhcn/hihihaha:backend
+  #   restart: always
+  #   depends_on:
+  #     - db
+  #   ports:
+  #     - "51926:51926"  
+  #     - "51927:51927"
+  #   networks:
+  #     - app-network
+
+  # frontend:
+  #   container_name: frontend
+  #   image: ndvinhcn/hihihaha:frontend
+  #   ports:
+  #     - "3000:3000"
+  #   networks:
+  #     - app-network
+
+  # # webuser:
+  # #   hostname: webuser
+  # #   container_name: webuser
+  # #   image: vanhng/webdieuhoa:web-user
+  # #   ports:
+  # #     - "3001:3001"
+  # #   networks:
+  # #     - app-network
+
+  # nginx:
+  #   image: 'jc21/nginx-proxy-manager:latest'
+  #   ports:
+  #     - "80:80"
+  #     - "81:81"
+  #     - "443:443"
+  #   volumes:
+  #     - nginxproxymanager-data:/data
+  #     - nginxproxymanager-ssl:/etc/letsencrypt
+  #   networks:
+  #     - app-network
+

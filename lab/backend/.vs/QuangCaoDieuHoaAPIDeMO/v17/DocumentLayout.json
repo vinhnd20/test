@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vieta\\OneDrive\\Desktop\\WebDieuHoaApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3943C9F1-2BA2-474A-A6A8-AB779725456E}|QuangCaoDieuHoaAPI\\QuangCaoDieuHoaAPI.csproj|c:\\users\\vieta\\onedrive\\desktop\\webdieuhoaapi\\quangcaodieuhoaapi\\migrations\\20240426042627_dbdieuhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3943C9F1-2BA2-474A-A6A8-AB779725456E}|QuangCaoDieuHoaAPI\\QuangCaoDieuHoaAPI.csproj|solutionrelative:quangcaodieuhoaapi\\migrations\\20240426042627_dbdieuhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3943C9F1-2BA2-474A-A6A8-AB779725456E}|QuangCaoDieuHoaAPI\\QuangCaoDieuHoaAPI.csproj|c:\\users\\vieta\\onedrive\\desktop\\webdieuhoaapi\\quangcaodieuhoaapi\\services\\sanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3943C9F1-2BA2-474A-A6A8-AB779725456E}|QuangCaoDieuHoaAPI\\QuangCaoDieuHoaAPI.csproj|solutionrelative:quangcaodieuhoaapi\\services\\sanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3943C9F1-2BA2-474A-A6A8-AB779725456E}|QuangCaoDieuHoaAPI\\QuangCaoDieuHoaAPI.csproj|c:\\users\\vieta\\onedrive\\desktop\\webdieuhoaapi\\quangcaodieuhoaapi\\services\\hangservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3943C9F1-2BA2-474A-A6A8-AB779725456E}|QuangCaoDieuHoaAPI\\QuangCaoDieuHoaAPI.csproj|solutionrelative:quangcaodieuhoaapi\\services\\hangservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240426042627_dbdieuhoa.cs",
+              "DocumentMoniker": "C:\\Users\\vieta\\OneDrive\\Desktop\\WebDieuHoaApi\\QuangCaoDieuHoaAPI\\Migrations\\20240426042627_dbdieuhoa.cs",
+              "RelativeDocumentMoniker": "QuangCaoDieuHoaAPI\\Migrations\\20240426042627_dbdieuhoa.cs",
+              "ToolTip": "C:\\Users\\vieta\\OneDrive\\Desktop\\WebDieuHoaApi\\QuangCaoDieuHoaAPI\\Migrations\\20240426042627_dbdieuhoa.cs",
+              "RelativeToolTip": "QuangCaoDieuHoaAPI\\Migrations\\20240426042627_dbdieuhoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T04:26:27.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SanPhamServices.cs",
+              "DocumentMoniker": "C:\\Users\\vieta\\OneDrive\\Desktop\\WebDieuHoaApi\\QuangCaoDieuHoaAPI\\Services\\SanPhamServices.cs",
+              "RelativeDocumentMoniker": "QuangCaoDieuHoaAPI\\Services\\SanPhamServices.cs",
+              "ToolTip": "C:\\Users\\vieta\\OneDrive\\Desktop\\WebDieuHoaApi\\QuangCaoDieuHoaAPI\\Services\\SanPhamServices.cs",
+              "RelativeToolTip": "QuangCaoDieuHoaAPI\\Services\\SanPhamServices.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFgAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T03:43:13.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HangServices.cs",
+              "DocumentMoniker": "C:\\Users\\vieta\\OneDrive\\Desktop\\WebDieuHoaApi\\QuangCaoDieuHoaAPI\\Services\\HangServices.cs",
+              "RelativeDocumentMoniker": "QuangCaoDieuHoaAPI\\Services\\HangServices.cs",
+              "ToolTip": "C:\\Users\\vieta\\OneDrive\\Desktop\\WebDieuHoaApi\\QuangCaoDieuHoaAPI\\Services\\HangServices.cs",
+              "RelativeToolTip": "QuangCaoDieuHoaAPI\\Services\\HangServices.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwD0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T03:38:35.338Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
